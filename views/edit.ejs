@@ -1,0 +1,15 @@
+<form action="/mongooses/<%=mg.id%>" method="post">
+  <div>
+    <label for="name">Mongoose Name:</label>
+    <input type="text" id="name" name="mongoose_name" value="<%=mg.name %>">
+  </div>
+  <div>
+    <label for="height">Mongoose Height:</label>
+    <input type="text" id="height" name="mongoose_height" value="<%=mg.height%>">
+  </div>
+  <div>
+    <label for="sound"> Mongoose Sound </label>
+    <input id="sound" name="mongoose_sound" value="<%=mg.sound%>">
+  </div>
+  <input type="submit" value="edit me"> 
+</form>
